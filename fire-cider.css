@@ -1,0 +1,46 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+	font-family: sans-serif;
+	background: white;
+	margin: 0;
+	color: #33333d;
+	text-align: center;
+}
+
+h1 {
+	font-size: 2em;
+	border: solid 1px black;
+	margin: 5% 15% 0 15%;
+}
+
+img {
+	height: 150px;
+	width: 150px;
+}
+
+aside, .info {
+	margin: 0 15% 0 15%;
+}
+
+aside {
+	text-align: right;
+}
+
+.info, .next {
+	text-align: left;
+}
+
+.next {
+	font: .7em sans-serif;
+	width: 100px;
+	background: url("arrow.jpeg") right no-repeat;
+	background-size: 20% auto;
+	display: block;
+	position: relative;
+	padding: 0 5% 0;
+}
