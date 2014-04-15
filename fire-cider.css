@@ -12,10 +12,20 @@ body {
 	text-align: center;
 }
 
-h1 {
+.item {
+	text-align: left;
 	font-size: 2em;
 	border: solid 1px black;
 	margin: 5% 15% 5% 15%;
+}
+
+li {
+ 	display: inline-block;
+ 	position: relative;
+ }
+
+.item li {
+	padding: 0 15px 0 0;
 }
 
 .images {
@@ -31,16 +41,15 @@ aside {
 	text-align: right;
 }
 
-.info, .next {
+.info {
 	text-align: left;
 }
 
-.next {
-	font: .7em sans-serif;
-	width: 100px;
-	background: url("arrow.jpeg") right no-repeat;
-	background-size: 20% auto;
-	display: block;
-	position: relative;
-	padding: 0 5% 0;
-}
+ .links {
+ 	font-size: .7em;
+ 	list-style-type: none;
+ }
+
+ .links li {
+  	padding: 5px;
+ }
