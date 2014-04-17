@@ -6,8 +6,8 @@ $(document).ready(function(){
         $(this).attr("src", "natural-nellies-black.png");
     });
     $(".item").on("mouseenter", function(){
-    	$(".item").append("<i class='fa fa-heart-o' id='favorite'></i></li>");
-    	$("#favorite").on("click", function(){
+    	$(".item").append("<span id='favorite' style='font-size: 10px'><i class='fa fa-heart-o'></i> Click to add to favorites.</span>");
+    	$("#favorite i").on("click", function(){
     		$(this).removeClass("fa fa-heart-o");
     		$(this).addClass("fa fa-heart");
     	});
